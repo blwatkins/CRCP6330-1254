@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+div.lightblue {
+    background-color: lightgreen;
+}
+
+#important {
+    color: red;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+hr {
+    border: 5px dashed darkred;
+}
