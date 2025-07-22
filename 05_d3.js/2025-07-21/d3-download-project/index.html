@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <title>D3 Download Project</title>
+    </head>
+    <body>
+        <script src="./lib/d3.v7.min.js"></script>
+        <script src="./src/shape.js"></script>
+        <script>
+            const shapeBuilder = new ShapeBuilder();
+            console.log(shapeBuilder.toString());
+            const shape = shapeBuilder.setX(100).setY(100).setWidth(70).setHeight(50).setColor("blue").build();
+            console.log(shape.toString());
+
+            let shapes = [new Shape(), new Shape(), new Shape()];
+            shapes[0].x = 400;
+        </script>
+        <p>
+            <a href="./visualization.html">visualization</a>
+        </p>
+    </body>
+</html>
